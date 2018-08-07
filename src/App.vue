@@ -1,7 +1,7 @@
 <template>
   <div class="flex-container" id="app">
     <figure class="fit-image">
-      <img src="./assets/pfimage-hj.jpg"/>
+      <img src="./assets/pfimage-hj.jpeg"/>
     </figure>
     <MainActivity id="right" msg="Hyunjoo Kim"/>
   </div>
