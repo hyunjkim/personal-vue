@@ -3,9 +3,8 @@
   flex-direction: row;
 
   .fit-image {
-    height: 720px;
-    width:100%;
-    // max-height: fit-content;
+    height: 1000px;
+    width: 100%;
     -webkit-border-radius: 12px;
     /* Firefox 1-3.6 */
     -moz-border-radius: 12px;
@@ -31,9 +30,9 @@
 }
 
 body {
-  align-content: space-around;
   width: 100%;
   height: 100%;
+  margin: auto;
   overflow:hidden;
 }
 
@@ -41,7 +40,8 @@ body {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  // text-align: center;
+  font-size: 25px;
   color: #2c3e50;
   margin: 20px 0;
 }
