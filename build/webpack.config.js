@@ -1,11 +1,10 @@
-'use strict'
+
 const { VueLoaderPlugin } = require('vue-loader')
 module.exports = {
   mode: 'production',
-  entry: [
-    './src/main.js'
-  ],
+  entry: './src/main.js',
   devServer: {
+    contentBase: '/dist',
     disableHostCheck: true
   },
   module: {
