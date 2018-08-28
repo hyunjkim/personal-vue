@@ -5,6 +5,9 @@ module.exports = {
   entry: [
     './src/main.js'
   ],
+  devServer: {
+    disableHostCheck: true
+  },
   module: {
     rules: [
       {
