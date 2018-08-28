@@ -4,7 +4,6 @@ module.exports = {
   mode: 'production',
   entry: './src/main.js',
   devServer: {
-    // contentBase: '/dist',
     disableHostCheck: true
   },
   module: {
